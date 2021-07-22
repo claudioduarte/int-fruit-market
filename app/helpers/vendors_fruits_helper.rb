@@ -1,0 +1,2 @@
+module VendorsFruitsHelper
+end

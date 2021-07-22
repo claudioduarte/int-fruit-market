@@ -1,0 +1,24 @@
+<div class="col-12 media p-4 pb-2 bg-white mt-4 mb-4 rounded-3 shadow-sm">
+  <h5 class="mb-3">📝 EDIT FRUIT</h5>
+
+  <%= form_with model: @fruit, local: true, class:"needs-validation mb-3", html: {novalidate: true} do |f| %>
+
+  <div class="form-group mb-2">
+    <label for="nationality">Name</label>
+    <%= f.text_field :name, class: 'form-control', required: 'true' %>
+  </div>
+
+  <div class="form-group mb-2">
+    <label for="nationality">Image URL</label>
+    <%= f.url_field :image_url, class: 'form-control', required: 'true' %>
+  </div>
+
+  <div class="form-group mb-2">
+    <label for="nationality">Description</label>
+    <%= f.text_area :description, size: '70x5', class: 'form-control', required: 'true' %>
+  </div>
+
+  <button type="submit" class="btn btn-primary me-2">UPDATE</button>
+  <%= link_to "DELETE", fruit_path(@fruit.id), method: :delete, class: "btn btn-secondary", data: { confirm: 'Are you sure you want to delete this fruit?' } %>
+<% end %>
+</div>

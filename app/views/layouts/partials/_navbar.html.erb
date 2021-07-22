@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg shadow-sm bg-white sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <%= image_pack_tag("ifm_logo.png", class: "img-fluid logo-img", alt: "International Fruit Market") %>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto font-weight-bold">
+        <li class="nav-item mr-2">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+      </ul>
+      <% if signed_in? %>
+      <button class="btn btn-light me-1" type="button">
+        <%= fa_icon("user", class:"me-1") %> <%= truncate(current_user.first_name + " " + current_user.last_name, length: 15, separator: ' ') %>
+      </button>
+      <a href="/logout">
+        <button class="btn btn-primary" type="button"><%= fa_icon("sign-out-alt") %></button>
+      </a>
+      <% else %>
+      <form class="form-inline">
+        <a class="btn btn-primary" href="/login" role="button"><%= fa_icon("key", class:"me-1") %> Login</a>
+      </form>
+      <% end %>
+    </div>
+  </div>
+</nav>

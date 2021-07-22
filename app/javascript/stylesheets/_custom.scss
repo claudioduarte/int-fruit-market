@@ -1,0 +1,50 @@
+// sass variable overrides
+
+$body-bg: #F4F4F4;
+$white: #FFF;
+$black: #000;
+
+// TEXT COLOR
+$body-color: #666666;
+
+// PROJECT COLORS
+$red: #FF2A43;
+
+// PRIMARY COLOR
+$primary: $red;
+
+// RESPONSIVE FONT SIZE
+$enable-responsive-font-sizes: true;
+
+// OVERRIDE BUTTON FONT WEIGHT
+$btn-font-weight: 600;
+$btn-font-size: 0.9em;
+
+// FONTS
+$headings-font-family: 'Roboto Slab', serif;
+$font-family-base: 'Rubik', sans-serif;
+
+// FLASH MESSAGES
+$success: #36BD8E;
+$info: #3798BD;
+$warning: #FAD539;
+$error: #E63F3B;
+
+
+// LINKS
+$link-color: $red;
+$link-decoration: $red;
+$link-hover-decoration: $red;
+
+// OVERRIDE FONT WEIGHT
+.font-weight-bold {
+  font-weight: 600 !important;
+}
+
+.badge-primary, .badge-secondary {
+  font-weight: 600 !important;
+}
+
+.btn-primary {
+  color: $white !important;
+}

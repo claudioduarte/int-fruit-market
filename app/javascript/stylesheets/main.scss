@@ -1,0 +1,40 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+a {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link, .btn {
+  font-weight: 600;
+}
+
+.nav-link {
+  color: $body-color !important;
+}
+
+label {
+  font-weight: 600;
+}
+
+.logo-img {
+  height: 30px;
+}
+
+.fruit-images {
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .media {
+    flex-direction: column;
+
+    img {
+      margin-bottom: 1.5rem !important;
+      margin-right: 0 !important;
+    }
+  }
+}
