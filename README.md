@@ -2,7 +2,7 @@
 
 ![International Fruit Market](https://market.claudioduarte.pt/packs/media/images/ifm_logo-3064845ccf6c3f13542337a0fb9bd312.png)
 
-The objective of this exercise is to implement a platform that allows the stock management of fruit products in an international market. This is a Recruitment exercise for iCapital Network.
+The objective of this exercise is to implement a platform that allows the stock management of fruit products in an international market.
 
 #### Prerequisites
 
@@ -86,7 +86,5 @@ ruby ./bin/webpack-dev-server
 
 You can visit the website using the following URL: [http://localhost:3000](http://localhost:3000)
 
-**Live Version: [https://market.claudioduarte.pt](https://market.claudioduarte.pt)**
-
 ## Credits
-©2021 Cláudio Duarte. This is a Recruitment exercise for iCapital Network.
+©2021 Cláudio Duarte
