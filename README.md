@@ -1,6 +1,6 @@
 # International Fruit Market
 
-![International Fruit Market](https://market.claudioduarte.pt/packs/media/images/ifm_logo-3064845ccf6c3f13542337a0fb9bd312.png)
+![International Fruit Market](https://i.imgur.com/9EJsFde.png)
 
 The objective of this exercise is to implement a platform that allows the stock management of fruit products in an international market.
 
