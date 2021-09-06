@@ -86,5 +86,6 @@ ruby ./bin/webpack-dev-server
 
 You can visit the website using the following URL: [http://localhost:3000](http://localhost:3000)
 
-## Credits
+## License & Copyright
+Licensed under the [MIT License](LICENSE)
 ©2021 Cláudio Duarte
