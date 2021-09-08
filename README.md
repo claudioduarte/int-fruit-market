@@ -19,13 +19,13 @@ The setups steps expect following tools installed on the system.
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/claudioduarte/int-fruit-market.git
+git clone https://github.com/claudioduarte/international-fruit-market.git
 ```
 
 or, if you prefer, via SSH (recommended)
 
 ```bash
-git clone git@github.com:claudioduarte/int-fruit-market.git
+git clone git@github.com:claudioduarte/international-fruit-market.git
 ```
 
 #### 2. Install all of your gem dependencies
@@ -87,5 +87,4 @@ ruby ./bin/webpack-dev-server
 You can visit the website using the following URL: [http://localhost:3000](http://localhost:3000)
 
 ## License & Copyright
-Licensed under the [MIT License](LICENSE)
-©2021 Cláudio Duarte
+Licensed under the [MIT License](LICENSE). ©2021 Cláudio Duarte
