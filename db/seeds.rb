@@ -26,7 +26,7 @@ def create_fruits
       Fruit.create(
         name: fruit['name'],
         description: 'This is a simple description for ' + fruit['name'] + '. This fruit can be purchased from any of our vendors.',
-        image_url: 'https://api.predic8.de:443' + fruit['product_url']+ '/photo'
+        image_url: 'https://api.predic8.de:443' + fruit['self_link']+ '/image'
       )
     end
   else
