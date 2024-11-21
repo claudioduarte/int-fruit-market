@@ -1,6 +1,6 @@
 # International Fruit Market
 
-![int-fruit-market](https://user-images.githubusercontent.com/4729521/147421697-349651c3-8b9d-4e53-baf5-81394668991e.png)
+![image](https://github.com/user-attachments/assets/d1880197-40bb-4de2-a9dc-3eb1e1fbc7ff)
 
 The objective of this exercise is to implement a platform that allows the stock management of fruit products in an international market.
 
