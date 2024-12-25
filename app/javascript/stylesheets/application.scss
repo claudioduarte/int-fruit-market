@@ -1,11 +1,11 @@
 // Variables
-@import "_custom.scss";
+@use "_custom.scss";
 // Bootstrap
-@import "bootstrap/scss/bootstrap";
+@use "~bootstrap/scss/bootstrap";
 // Flash messages
-@import "toastr/toastr";
+@use "~toastr/toastr";
 // Stylesheets for views
-@import "main.scss";
+@use "main.scss";
 // Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
